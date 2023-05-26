@@ -254,7 +254,7 @@ declare namespace App {
     hasChildren: boolean;
     icon?: import('vue').Component;
     i18nTitle?: string;
-    options?: import('naive-ui/es/dropdown/src/interface').DropdownMixedOption[];
+    options?: (import('naive-ui/es/dropdown/src/interface').DropdownMixedOption & { i18nTitle?: string })[];
   };
 
   /** 多页签Tab的路由 */
@@ -302,7 +302,7 @@ declare namespace App {
 }
 
 declare namespace I18nType {
-  type langType = 'en' | 'zh-CN';
+  type langType = 'en' | 'zh-CN' | 'km-KH';
 
   interface Schema {
     system: {
@@ -310,7 +310,7 @@ declare namespace I18nType {
     };
     routes: {
       dashboard: {
-        dashboard: string;
+        _value: string;
         analysis: string;
         workbench: string;
       };
