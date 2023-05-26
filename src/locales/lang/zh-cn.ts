@@ -77,6 +77,10 @@ const locale: LocaleMessages<I18nType.Schema> = {
         route: '路由管理',
         user: '用户管理'
       },
+      'system-config': {
+        _value: '系统配置',
+        network: '网络配置'
+      },
       about: '关于'
     }
   }

@@ -380,6 +380,10 @@ declare namespace I18nType {
         route: string;
         user: string;
       };
+      'system-config': {
+        _value: string;
+        network: string;
+      };
       about: string;
     };
   }

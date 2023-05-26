@@ -77,6 +77,10 @@ const locale: LocaleMessages<I18nType.Schema> = {
         route: 'Route',
         user: 'User'
       },
+      'system-config': {
+        _value: 'System Configuration',
+        network: 'Network Configuration'
+      },
       about: 'About'
     }
   }
