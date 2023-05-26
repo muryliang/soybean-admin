@@ -77,6 +77,10 @@ const locale: LocaleMessages<I18nType.Schema> = {
         route: 'ផ្លូវប្រព័ន្ធ',
         user: 'អ្នកប្រើប្រាស់'
       },
+      'system-config': {
+        _value: 'ការ​កំណត់​រចនាសម្ព័ន្ធ​ប្រព័ន្ធ',
+        network: 'ការ​កំណត់​រចនាសម្ព័ន្ធ​បណ្ដាញ'
+      },
       about: 'អំពីប្រព័ន្ធ'
     }
   }
